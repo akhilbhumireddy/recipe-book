@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Recipe Book Application - Frontend Internship
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objective
 
-## Available Scripts
+Create a Recipe Book application using React.js that allows users to browse and view different recipes. The app should include a list of recipes on the homepage, and when a user clicks on a recipe, they should be taken to a separate page displaying the detailed recipe information fetched from the Spoonacular Recipe API.
 
-In the project directory, you can run:
+## Tech Stack
 
-### `npm start`
+- React.js
+- React Router
+- Spoonacular Recipe API
+- CSS/SCSS
+- Netlify/Vercel (for Deployment)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Completion Instructions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Functionality
 
-### `npm test`
+#### Must Have
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **API Integration**: Integrate with the Spoonacular Recipe API (https://spoonacular.com/food-api) to fetch recipe data. You will need to sign up for an API key to access the data.
+- **Routing**: Implement routing using React Router to create a multi-page application.
+  - Home: Display a list of recipes with their names and a brief description.
+  - Recipe Details: A separate page should display the detailed recipe information when a user clicks on a recipe.
+- **Homepage**: Display a list of recipes with their names and brief descriptions. Clicking on a recipe should navigate the user to the recipe details page.
+- **Recipe Details Page**: A separate page that displays detailed information about the selected recipe, including its name, ingredients, instructions, and an image.
+- **API Call for Recipe Details**: When a user clicks on a recipe from the homepage, an API call should be made to fetch detailed information about the selected recipe and display it on the Recipe Details page.
+- **Navigation**: Include a navigation bar or breadcrumbs to allow users to easily navigate between the homepage and the recipe details page.
+- **Error Handling**: Implement error handling for scenarios such as invalid API responses or network errors and display user-friendly error messages.
 
-### `npm run build`
+#### Nice to Have
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Implement a **search functionality** that allows users to search for recipes by name or ingredients.
+- Include a **category or tag filter** to help users narrow down their recipe choices.
+- Add **user authentication** to allow users to save their favorite recipes.
+- Implement a **rating or review system** for recipes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Guidelines to Develop a Project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Must Have
 
-### `npm run eject`
+- Ensure to use **React.js** to build a visually appealing and user-friendly interface.
+- Implement **React Router** for handling routing between the homepage and the recipe details page.
+- Use **error handling** to manage API failures or invalid responses.
+- **API Integration** should be done using the Spoonacular Recipe API.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Nice to Have
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Add styling that enhances **UI/UX** for better user experience.
+- Ensure that the app is responsive and works across different screen sizes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Submission Instructions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Must Have
 
-## Learn More
+- Submit a **GitHub repository** containing your project code (Public Link), including necessary configuration files, components, and assets.
+- Include the deployed link of the application.
+  - GitHub Repository: [https://github.com/akhilbhumireddy/recipe-book.git](https://github.com/akhilbhumireddy/recipe-book.git)
+  - Deployed Link: [https://akhilsrecipebook.netlify.app/](https://akhilsrecipebook.netlify.app/)
+- **Submit the assignment** via email to: `hiring@wobot.ai` by 2pm today.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Nice to Have
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Please **do not share** this assignment on social platforms, as other candidates are attempting the same assignment.
 
-### Code Splitting
+## Resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Design Files
 
-### Analyzing the Bundle Size
+- There are no mandatory design files. Feel free to adapt and modify the UI/UX as per your preferences.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### APIs
 
-### Making a Progressive Web App
+- **Spoonacular Recipe API**: [https://spoonacular.com/food-api](https://spoonacular.com/food-api)
+  - API Key required for access.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Third-party Packages
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **React Router**: For handling routing between pages.
+- **Axios** or **Fetch**: For making API calls.
+- **Styled Components** or **CSS**: For styling.
